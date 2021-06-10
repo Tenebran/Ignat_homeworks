@@ -1,0 +1,53 @@
+.message {
+  padding: 20px;
+  display: flex;
+  background-color: rgb(49, 255, 49);
+
+  &__avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 15px 0 0;
+  }
+
+  &__text {
+    &-wrapper {
+      z-index: 100;
+      position: relative;
+      background-color: rgba(2, 2, 22, 0.801);
+      padding: 15px;
+      border-radius: 10px;
+      min-width: 300px;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: -20px;
+        bottom: 50px;
+        border: 10px solid transparent;
+        border-right: 10px solid rgba(2, 2, 22, 0.801);
+      }
+    }
+
+    &__login {
+      color: violet;
+      font-size: 18px;
+      margin: 0 0 10px 0;
+    }
+
+    &__message {
+      color: #fff;
+      font-size: 24px;
+    }
+
+    &__time {
+      position: absolute;
+      font-size: 22px;
+      color: rgb(255, 255, 255);
+      opacity: 0.2;
+      bottom: 0;
+      right: 0;
+      margin: 0 10px 10px 0;
+    }
+  }
+}
