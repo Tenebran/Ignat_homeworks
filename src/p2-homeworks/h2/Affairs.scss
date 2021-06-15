@@ -1,0 +1,50 @@
+.todo {
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+  margin: 20px 50px 20px 50px;
+  margin: 0;
+  padding: 50px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  font-size: 25px;
+
+  &__wrapper {
+    width: 100%;
+  }
+}
+
+.button {
+  width: 100px;
+  background-color: rgb(45, 151, 142);
+  color: white;
+  cursor: pointer;
+  transition: 1.5s;
+
+  &:hover {
+    background-color: rgb(9, 80, 74);
+  }
+}
+
+.btn {
+  display: inline-block;
+  width: 200px;
+  border-radius: 10px;
+  margin: 40px 50px;
+  cursor: pointer;
+  background-color: rgb(74, 201, 206);
+  color: #fff;
+  font-size: 25px;
+  font-weight: 900;
+  transition: 1.2s;
+  padding: 10px 0;
+  &:hover {
+    background-color: rgb(36, 88, 90);
+  }
+  .btn__wrapper {
+    display: inline-flex;
+    justify-content: space-around;
+  }
+}

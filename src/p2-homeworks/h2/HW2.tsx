@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Affairs from './Affairs';
+import './Affairs.scss';
 
 // types
 export type AffairPriorityType = 'high' | 'low' | 'middle';
@@ -53,9 +54,8 @@ function HW2() {
   const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id));
 
   return (
-    <div>
+    <div className="todo">
       <hr />
-      homeworks 2{/*should work (должно работать)*/}
       <Affairs
         data={filteredAffairs}
         setFilter={setFilter}

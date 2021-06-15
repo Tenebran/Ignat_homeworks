@@ -11,9 +11,12 @@ function Affair(props: AffairPropsType) {
     props.deleteAffairCallback(props.affair._id);
   };
   return (
-    <div>
-      {props.affair.name}
-      <button onClick={deleteCallback}>X</button>
+    <div className="list">
+      <div className="list__wrapper"> {props.affair.name}</div>
+
+      <button className="button" onClick={deleteCallback}>
+        X
+      </button>
     </div>
   );
 }
