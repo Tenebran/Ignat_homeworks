@@ -23,7 +23,7 @@
     "uuid": "^3.4.0",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://tenebran.github.io/Ignar_homeworks/",
+  "homepage": "https://tenebran.github.io/Ignat_homeworks/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
