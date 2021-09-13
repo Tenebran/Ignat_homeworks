@@ -1,0 +1,16 @@
+.error {
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  border: none !important;
+  font-size: 45px !important;
+  color: red !important;
+
+  &__title {
+    color: red !important;
+    font-size: 45px !important;
+    &:first-child {
+      margin-top: 20vh;
+    }
+  }
+}
