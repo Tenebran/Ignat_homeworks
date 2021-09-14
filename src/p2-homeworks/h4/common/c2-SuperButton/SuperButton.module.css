@@ -1,6 +1,27 @@
 .default {
+  width: 100px;
+  background-color: rgb(45, 151, 142);
+  color: white;
+  cursor: pointer;
+  transition: 1.5s;
+  height: 30px;
+  border-radius: 5px;
+  margin: 0 0 10px;
+}
+
+.default:hover {
+  background-color: rgb(9, 80, 74);
 }
 
 .red {
-  background: red;
+  background: rgb(247, 21, 21);
+}
+
+.red:hover {
+  background: rgb(172, 32, 32);
+}
+
+.disable {
+  background-color: rgb(9, 80, 74);
+  cursor: default;
 }
