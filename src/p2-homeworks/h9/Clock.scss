@@ -1,0 +1,24 @@
+.clock {
+  display: flex;
+  height: 30vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #141e30;
+  background: -webkit-linear-gradient(to right, #243b55, #141e30);
+  background: linear-gradient(to right, #243b55, #141e30);
+  color: #ffff;
+
+  &__wrapper {
+    color: #ffff;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+  }
+
+  &__time {
+    cursor: cell;
+  }
+}
