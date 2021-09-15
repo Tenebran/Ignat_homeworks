@@ -14,10 +14,10 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = ({
   // min, max, step, disable, ...
 }) => {
   // сделать самому, можно подключать библиотеки
-  const [valueee, setValue] = React.useState<number[]>([value[0], value[1]]);
+  const [valueRange, setValueRange] = React.useState<number[]>([value[0], value[1]]);
   const handleChange = (event: any, valuee: number | number[]) => {
-    setValue(valuee as number[]);
-    handleChangeDobleRange(valueee);
+    setValueRange(valuee as number[]);
+    handleChangeDobleRange(valueRange);
   };
   return (
     <div className="HW11__range">

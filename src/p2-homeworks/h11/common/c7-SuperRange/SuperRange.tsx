@@ -25,7 +25,7 @@ const SuperRange: React.FC<SuperRangePropsType> = ({
 
   ...restProps // все остальные пропсы попадут в объект restProps
 }) => {
-  const [value, setValue] = React.useState<number | number[]>(1);
+  const [value, setValue] = React.useState<number | number[]>(value1);
 
   const handleChange = (event: any, newValue: any) => {
     setValue(newValue);
@@ -35,7 +35,7 @@ const SuperRange: React.FC<SuperRangePropsType> = ({
   return (
     <div className="HW11__range">
       <Slider
-        value={value}
+        value={value1}
         onChange={handleChange}
         valueLabelDisplay="auto"
         aria-labelledby="non-linear-slider"
