@@ -42,7 +42,6 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = ({
 
   const onBlurCallback = (e: React.FocusEvent<HTMLInputElement>) => {
     setEditMode(false);
-    saveState('inputValue', restProps.value);
     onBlur && onBlur(e);
   };
   const onDoubleClickCallBack = (e: React.MouseEvent<HTMLSpanElement, MouseEvent>) => {
