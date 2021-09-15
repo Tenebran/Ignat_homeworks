@@ -1,0 +1,59 @@
+.HW11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  justify-content: center;
+  background: #00bf8f;
+  background: -webkit-linear-gradient(to right, #001510, #00bf8f);
+  background: linear-gradient(to right, #001510, #00bf8f);
+  color: #fff;
+
+  &__wrapper {
+    width: 400px;
+  }
+
+  &__index {
+    width: 50px;
+    height: 100px;
+    border: 3px solid rgb(231, 231, 231);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px 10px;
+  }
+
+  &__block {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    border: 1px solid black;
+    width: 50px;
+    height: 100px;
+    margin: 10px 0 0 100px;
+    overflow: hidden;
+    position: relative;
+
+    &__number {
+      position: absolute;
+      top: calc(50% - 10px);
+      left: calc(50% - 10px);
+    }
+
+    &__color {
+      max-height: 100px;
+      width: 100%;
+    }
+  }
+
+  &__range-wrapper {
+    display: flex;
+  }
+
+  &__range {
+    margin: 0 0 50px 0;
+    &:last-child {
+      margin: 0 0 25px 0;
+    }
+  }
+}

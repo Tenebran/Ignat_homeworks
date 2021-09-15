@@ -18,7 +18,6 @@ function HW3() {
     let addUsers = [...users, newUsers];
     setUsers(addUsers); // need to fix
   };
-  console.log(users);
   return (
     <div>
       <hr />
