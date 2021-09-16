@@ -1,23 +1,71 @@
-.dark {
-    background: dimgrey;
+.Moonlit_Asteroid {
+  background: #0f2027;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  height: 60vh;
 }
 
-.dark-text {
-    color: aliceblue;
+.Moonlit_Asteroid-text {
+  color: aliceblue;
+  margin: 0 10px 0 0;
+  font-weight: 800;
 }
 
-.red {
-    background: lightcoral;
+.Harvey {
+  background: #1f4037;
+  background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);
+  background: linear-gradient(to right, #99f2c8, #1f4037);
+  height: 60vh;
 }
 
-.red-text {
-    color: aqua;
+.Harvey-text {
+  color: #fff;
+  margin: 0 10px 0 0;
+  font-weight: 800;
 }
 
-.some {
-    background: lightgreen;
+.Witching_Hour {
+  background: #c31432;
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);
+  background: linear-gradient(to right, #240b36, #c31432);
+  height: 60vh;
 }
 
-.some-text {
-    color: darkslateblue;
+.Witching_Hour-text {
+  color: #fff;
+  font-weight: 800;
+  margin: 0 10px 0 0;
+}
+
+.Kye_Meh {
+  background: #8360c3;
+  background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
+  background: linear-gradient(to right, #2ebf91, #8360c3);
+  height: 60vh;
+}
+
+.Kye_Meh-text {
+  color: #fff;
+  font-weight: 800;
+  margin: 0 10px 0 0;
+}
+
+.Lawrencium {
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  height: 60vh;
+}
+
+.Lawrencium-text {
+  color: #fff;
+  font-weight: 800;
+  margin: 0 10px 0 0;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

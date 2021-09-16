@@ -1,9 +1,10 @@
 import React from 'react';
+import HW12 from '../../h12/HW12';
 
 export default function JuniorPlus() {
   return (
     <div>
-      <h1>Junior Plus</h1>
+      <HW12 />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React, { SelectHTMLAttributes, DetailedHTMLProps, ChangeEvent } from 'react';
+import { ThemeType } from '../../../h12/bll/themeReducer';
 
 type DefaultSelectPropsType = DetailedHTMLProps<
   SelectHTMLAttributes<HTMLSelectElement>,
@@ -27,7 +28,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = ({
         ? options.map((list, index) => {
             if (list)
               return (
-                <option key={`${index}`} value={list}>
+                <option key={`${index}`} value={list} className="hw7__select__option">
                   {list}
                 </option>
               );
